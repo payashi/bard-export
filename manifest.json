@@ -1,0 +1,11 @@
+{
+  "name": "Bard Export",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Easy to copy conversations with Bard",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
